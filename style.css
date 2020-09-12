@@ -1,0 +1,93 @@
+h1{
+    color:blueviolet, 
+}
+
+.menu{
+    display:flex;
+    flex:wrap;
+    justify-content: space-between;
+    background-color: black;
+    padding:15px;
+    font-size: 20px; 
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.grid{
+    background-color: white;
+     margin: 1px;
+     display: flex;
+     flex:wrap;
+    justify-content: space-evenly;
+}
+.grid2{
+    background-color: white;
+     margin: 1px;
+     display: flex;
+     flex:wrap;
+    justify-content: space-evenly;
+}
+.grid img{
+    margin-left: 50px;
+    margin-top:30px;
+    border:2px solid black;
+    border-radius: 50px;
+}
+.grid2 img{
+    margin-left: 50px;
+    margin-top:30px;
+    border:2px solid black;
+    border-radius: 50px;
+}
+
+.chameleon{
+    background-color: rgb(174, 179, 174);
+    border: solid;
+    
+}
+.pigeon{
+    background-color:  rgb(174, 179, 174);
+    border: solid;
+}
+.camel{
+    background-color: rgb(174, 179, 174);
+    border: solid;
+}
+.bear{
+    background-color: rgb(174, 179, 174);
+    border: solid;
+    padding-left: -20px;
+   
+}
+.panda{
+    background-color: rgb(174, 179, 174);
+    border: solid;
+    margin-left: 2px;
+}
+.cicada{
+    background-color:  rgb(174, 179, 174);
+    border: solid;
+}
+a:link{
+    color:yellow;
+}
+a:visited{
+    color:yellowgreen;
+}
+
+.origami:hover img{
+    opacity:0.5;
+}
+.origami{
+    position: relative;
+}
+.origami p{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+.origami :hover p{
+    opacity:1;
+}
